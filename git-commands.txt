@@ -4,3 +4,7 @@ git add <filename>
 git commit -m "msg"
 git restore <filename>
 git rm --cached <filename>
+git remote -v
+git remote add origin <repo-url>
+git branch -M main
+git push -u origin main
